@@ -8,7 +8,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: $background;
     color: white;
-    padding-inline:30px; 
+    padding-inline: 35px; 
 }
 
 .no-scroll {
@@ -249,7 +249,8 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    font-size: 26px;
+    font-size: 20px;
+    line-height: 42px;
     
     .linkedin {
         display: contents;
