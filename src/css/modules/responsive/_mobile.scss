@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: $background;
+    color: white;
+    padding-inline:50px; 
+}
+
+//home
+.home {
+    .contents-wrapper {
+        display: grid;
+        gap: 20px;
+    }
+}
+
+//Header
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+    .logo {
+        font-family: "Orbitron", sans-serif;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .user-name {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        .user-icon {
+            background-color: $primary-green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        p {
+            font-family: "Rubik", sans-serif;
+        }
+    }
+
+    .nav-menu {
+        position: absolute;
+        background-color: #245e3e;
+        width: 320px;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 999999;
+        padding: 30px;
+
+        .nav-close svg{
+            font-size: 30px;
+        }
+
+        .page-menu {
+            margin: 60px 40px;
+            font-size: 19px;
+
+            li {
+                margin-bottom: 50px;
+
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $primary-green;
+                }
+            }
+        }
+
+        .contact {
+            margin: 120px 0px 0px 40px;
+            font-size: 19px;
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $primary-green;
+                }
+            }
+        }
+    }
+}
+
+//User plan
+.user-plan {
+    border: $default-border;
+    border-radius: $default-radius;
+    padding: $components-padding;
+    display: flex;
+    position: relative;
+
+    .plan-title {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #a8facd;
+    }
+
+    .change-plan-btn {
+        height: 43px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .MuiButtonBase-root {
+        background-color: $primary-green;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+        background-color: $sub-green;
+    }
+
+    .MuiPaper-root {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+}
+
+//DateRange 
+.section-title {
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.energy-consumption-gauge {
+    border: 1px solid $primary-green;
+    border-radius: 10px;
+    padding: $components-padding;
+
+    .gauge {
+        display: flex;
+        justify-content: center;
+
+        .css-1w10rh9-MuiGauge-container {
+            width: 200px;
+            height: 200px;
+        }
+
+        .css-p1sr87-MuiGauge-referenceArc {
+            fill: rgb(227, 251, 230);
+        }
+        .css-b9rdri-MuiGauge-referenceArc {
+            fill: $primary-green; 
+        }
+
+        text {
+            fill: white;
+        }
+    }
+
+}
+
+.display-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .total-kwh,
+    .price {
+        background-color: $sub-green;
+        padding: 20px;
+        border-radius: $default-radius;
+        width: 47%;
+
+        .title,
+        .duration {
+            color: #b6b6b6;
+            font-size: 14px;
+        }
+
+        .value-display {
+            font-size: 26px;
+        }
+    }
+}
+
+//Monthly usage
+.monthly-usage {
+    border: $default-border;
+    border-radius: $default-radius;
+    padding: $components-padding;
+}
+
+//Daily usage
+.daily-usage {
+    border: $default-border;
+    border-radius: $default-radius;
+    padding: $components-padding;
+}
+
+//other pages
+.page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-size: 26px;
+    
+    .linkedin {
+        display: contents;
+        color: #2b8eff;
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        position: absolute;
+        top: 30px;
+        left: 35px;
+    }
+}

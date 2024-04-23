@@ -1,0 +1,12 @@
+//tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Variables
+@import "modules/variables";
+
+// Responsive
+@import "modules/responsive/mobile";
+@import "modules/responsive/tablet";
+@import "modules/responsive/desktop";

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #111A1A;
+  color: white;
+  padding-inline: 50px;
+}
+
+.home .contents-wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.header .logo {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+.header .user-name {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header .user-name .user-icon {
+  background-color: #45CE83;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.header .user-name p {
+  font-family: "Rubik", sans-serif;
+}
+.header .nav-menu {
+  position: absolute;
+  background-color: #245e3e;
+  width: 320px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  padding: 30px;
+}
+.header .nav-menu .nav-close svg {
+  font-size: 30px;
+}
+.header .nav-menu .page-menu {
+  margin: 60px 40px;
+  font-size: 19px;
+}
+.header .nav-menu .page-menu li {
+  margin-bottom: 50px;
+}
+.header .nav-menu .page-menu li:hover {
+  text-decoration: underline;
+  text-decoration-color: #45CE83;
+}
+.header .nav-menu .contact {
+  margin: 120px 0px 0px 40px;
+  font-size: 19px;
+}
+.header .nav-menu .contact a:hover {
+  text-decoration: underline;
+  text-decoration-color: #45CE83;
+}
+
+.user-plan {
+  border: 1px solid #45CE83;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  position: relative;
+}
+.user-plan .plan-title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #a8facd;
+}
+.user-plan .change-plan-btn {
+  height: 43px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.user-plan .MuiButtonBase-root {
+  background-color: #45CE83;
+}
+.user-plan .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: rgba(44, 192, 111, 0.4588235294);
+}
+.user-plan .MuiPaper-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.section-title {
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.energy-consumption-gauge {
+  border: 1px solid #45CE83;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.energy-consumption-gauge .gauge {
+  display: flex;
+  justify-content: center;
+}
+.energy-consumption-gauge .gauge .css-1w10rh9-MuiGauge-container {
+  width: 200px;
+  height: 200px;
+}
+.energy-consumption-gauge .gauge .css-p1sr87-MuiGauge-referenceArc {
+  fill: rgb(227, 251, 230);
+}
+.energy-consumption-gauge .gauge .css-b9rdri-MuiGauge-referenceArc {
+  fill: #45CE83;
+}
+.energy-consumption-gauge .gauge text {
+  fill: white;
+}
+
+.display-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.display-box .total-kwh,
+.display-box .price {
+  background-color: rgba(44, 192, 111, 0.4588235294);
+  padding: 20px;
+  border-radius: 10px;
+  width: 47%;
+}
+.display-box .total-kwh .title,
+.display-box .total-kwh .duration,
+.display-box .price .title,
+.display-box .price .duration {
+  color: #b6b6b6;
+  font-size: 14px;
+}
+.display-box .total-kwh .value-display,
+.display-box .price .value-display {
+  font-size: 26px;
+}
+
+.monthly-usage {
+  border: 1px solid #45CE83;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.daily-usage {
+  border: 1px solid #45CE83;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-size: 26px;
+}
+.page .linkedin {
+  display: contents;
+  color: #2b8eff;
+}
+.page .css-i4bv87-MuiSvgIcon-root {
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+
+@media screen and (min-width: 992px) {
+  .contents-wrapper {
+    display: grid;
+    width: 100%;
+    height: 90vh;
+    gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "gauge plan plan monthly" "gauge kwh price monthly" "daily daily daily daily";
+  }
+  .contents-wrapper .energy-consumption-gauge {
+    grid-area: gauge;
+  }
+  .contents-wrapper .user-plan {
+    grid-area: plan;
+  }
+  .contents-wrapper .monthly-usage {
+    grid-area: monthly;
+  }
+  .contents-wrapper .total-kwh {
+    grid-area: kwh;
+    width: 100%;
+  }
+  .contents-wrapper .price {
+    grid-area: price;
+    width: 100%;
+  }
+  .contents-wrapper .daily-usage {
+    grid-area: daily;
+  }
+  .contents-wrapper .display-box {
+    display: contents;
+  }
+  .user-plan .plan-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #a8facd;
+  }
+  .user-plan .charge-info {
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .total-kwh,
+  .price {
+    position: relative;
+  }
+  .total-kwh .duration,
+  .price .duration {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+}/*# sourceMappingURL=App.css.map */

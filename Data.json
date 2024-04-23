@@ -1,0 +1,872 @@
+[
+    {
+        "month": "November",
+        "date": "01-11-23",
+        "usage": 9
+    },
+    {
+        "month": "November",
+        "date": "02-11-23",
+        "usage": 6
+    },
+    {
+        "month": "November",
+        "date": "03-11-23",
+        "usage": 12
+    },
+    {
+        "month": "November",
+        "date": "04-11-23",
+        "usage": 10
+    },
+    {
+        "month": "November",
+        "date": "05-11-23",
+        "usage": 9
+    },
+    {
+        "month": "November",
+        "date": "06-11-23",
+        "usage": 5
+    },
+    {
+        "month": "November",
+        "date": "07-11-23",
+        "usage": 7
+    },
+    {
+        "month": "November",
+        "date": "08-11-23",
+        "usage": 9
+    },
+    {
+        "month": "November",
+        "date": "09-11-23",
+        "usage": 4.8
+    },
+    {
+        "month": "November",
+        "date": "10-11-23",
+        "usage": 12
+    },
+    {
+        "month": "November",
+        "date": "11-11-23",
+        "usage": 7
+    },
+    {
+        "month": "November",
+        "date": "12-11-23",
+        "usage": 4
+    },
+    {
+        "month": "November",
+        "date": "13-11-23",
+        "usage": 6
+    },
+    {
+        "month": "November",
+        "date": "14-11-23",
+        "usage": 5
+    },
+    {
+        "month": "November",
+        "date": "15-11-23",
+        "usage": 6
+    },
+    {
+        "month": "November",
+        "date": "16-11-23",
+        "usage": 4.8
+    },
+    {
+        "month": "November",
+        "date": "17-11-23",
+        "usage": 8.4
+    },
+    {
+        "month": "November",
+        "date": "18-11-23",
+        "usage": 9
+    },
+    {
+        "month": "November",
+        "date": "19-11-23",
+        "usage": 7
+    },
+    {
+        "month": "November",
+        "date": "20-11-23",
+        "usage": 4
+    },
+    {
+        "month": "November",
+        "date": "21-11-23",
+        "usage": 4
+    },
+    {
+        "month": "November",
+        "date": "22-11-23",
+        "usage": 4
+    },
+    {
+        "month": "November",
+        "date": "23-11-23",
+        "usage": 12
+    },
+    {
+        "month": "November",
+        "date": "24-11-23",
+        "usage": 7.19
+    },
+    {
+        "month": "November",
+        "date": "25-11-23",
+        "usage": 10
+    },
+    {
+        "month": "November",
+        "date": "26-11-23",
+        "usage": 7
+    },
+    {
+        "month": "November",
+        "date": "27-11-23",
+        "usage": 9
+    },
+    {
+        "month": "November",
+        "date": "28-11-23",
+        "usage": 4
+    },
+    {
+        "month": "November",
+        "date": "29-11-23",
+        "usage": 7
+    },
+    {
+        "month": "November",
+        "date": "30-11-23",
+        "usage": 7.19
+    },
+    {
+        "month": "December",
+        "date": "01-12-23",
+        "usage": 7.19
+    },
+    {
+        "month": "December",
+        "date": "02-12-23",
+        "usage": 10
+    },
+    {
+        "month": "December",
+        "date": "03-12-23",
+        "usage": 12
+    },
+    {
+        "month": "December",
+        "date": "04-12-23",
+        "usage": 9
+    },
+    {
+        "month": "December",
+        "date": "05-12-23",
+        "usage": 7
+    },
+    {
+        "month": "December",
+        "date": "06-12-23",
+        "usage": 8
+    },
+    {
+        "month": "December",
+        "date": "07-12-23",
+        "usage": 10.79
+    },
+    {
+        "month": "December",
+        "date": "08-12-23",
+        "usage": 7.19
+    },
+    {
+        "month": "December",
+        "date": "09-12-23",
+        "usage": 12
+    },
+    {
+        "month": "December",
+        "date": "10-12-23",
+        "usage": 8
+    },
+    {
+        "month": "December",
+        "date": "11-12-23",
+        "usage": 11
+    },
+    {
+        "month": "December",
+        "date": "12-12-23",
+        "usage": 8
+    },
+    {
+        "month": "December",
+        "date": "13-12-23",
+        "usage": 8
+    },
+    {
+        "month": "December",
+        "date": "14-12-23",
+        "usage": 9.6
+    },
+    {
+        "month": "December",
+        "date": "15-12-23",
+        "usage": 7.19
+    },
+    {
+        "month": "December",
+        "date": "16-12-23",
+        "usage": 10
+    },
+    {
+        "month": "December",
+        "date": "17-12-23",
+        "usage": 11
+    },
+    {
+        "month": "December",
+        "date": "18-12-23",
+        "usage": 10
+    },
+    {
+        "month": "December",
+        "date": "19-12-23",
+        "usage": 11
+    },
+    {
+        "month": "December",
+        "date": "20-12-23",
+        "usage": 6
+    },
+    {
+        "month": "December",
+        "date": "21-12-23",
+        "usage": 8.4
+    },
+    {
+        "month": "December",
+        "date": "22-12-23",
+        "usage": 14.39
+    },
+    {
+        "month": "December",
+        "date": "23-12-23",
+        "usage": 12
+    },
+    {
+        "month": "December",
+        "date": "24-12-23",
+        "usage": 6
+    },
+    {
+        "month": "December",
+        "date": "25-12-23",
+        "usage": 10
+    },
+    {
+        "month": "December",
+        "date": "26-12-23",
+        "usage": 11
+    },
+    {
+        "month": "December",
+        "date": "27-12-23",
+        "usage": 9
+    },
+    {
+        "month": "December",
+        "date": "28-12-23",
+        "usage": 12
+    },
+    {
+        "month": "December",
+        "date": "29-12-23",
+        "usage": 10.79
+    },
+    {
+        "month": "December",
+        "date": "30-12-23",
+        "usage": 12
+    },
+    {
+        "month": "December",
+        "date": "31-12-23",
+        "usage": 12
+    },
+    {
+        "month": "January",
+        "date": "01-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "02-01-24",
+        "usage": 5
+    },
+    {
+        "month": "January",
+        "date": "03-01-24",
+        "usage": 6
+    },
+    {
+        "month": "January",
+        "date": "04-01-24",
+        "usage": 7
+    },
+    {
+        "month": "January",
+        "date": "05-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "06-01-24",
+        "usage": 8.4
+    },
+    {
+        "month": "January",
+        "date": "07-01-24",
+        "usage": 3.59
+    },
+    {
+        "month": "January",
+        "date": "08-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "09-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "10-01-24",
+        "usage": 7
+    },
+    {
+        "month": "January",
+        "date": "11-01-24",
+        "usage": 7
+    },
+    {
+        "month": "January",
+        "date": "12-01-24",
+        "usage": 6
+    },
+    {
+        "month": "January",
+        "date": "13-01-24",
+        "usage": 4.8
+    },
+    {
+        "month": "January",
+        "date": "14-01-24",
+        "usage": 4.8
+    },
+    {
+        "month": "January",
+        "date": "15-01-24",
+        "usage": 6
+    },
+    {
+        "month": "January",
+        "date": "16-01-24",
+        "usage": 4
+    },
+    {
+        "month": "January",
+        "date": "17-01-24",
+        "usage": 5
+    },
+    {
+        "month": "January",
+        "date": "18-01-24",
+        "usage": 4
+    },
+    {
+        "month": "January",
+        "date": "19-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "20-01-24",
+        "usage": 8.4
+    },
+    {
+        "month": "January",
+        "date": "21-01-24",
+        "usage": 6
+    },
+    {
+        "month": "January",
+        "date": "22-01-24",
+        "usage": 4
+    },
+    {
+        "month": "January",
+        "date": "23-01-24",
+        "usage": 7
+    },
+    {
+        "month": "January",
+        "date": "24-01-24",
+        "usage": 3
+    },
+    {
+        "month": "January",
+        "date": "25-01-24",
+        "usage": 6
+    },
+    {
+        "month": "January",
+        "date": "26-01-24",
+        "usage": 7
+    },
+    {
+        "month": "January",
+        "date": "27-01-24",
+        "usage": 8.4
+    },
+    {
+        "month": "January",
+        "date": "28-01-24",
+        "usage": 8.4
+    },
+    {
+        "month": "January",
+        "date": "29-01-24",
+        "usage": 4
+    },
+    {
+        "month": "January",
+        "date": "30-01-24",
+        "usage": 4
+    },
+    {
+        "month": "January",
+        "date": "31-01-24",
+        "usage": 7
+    },
+    {
+        "month": "February",
+        "date": "01-02-24",
+        "usage": 8
+    },
+    {
+        "month": "February",
+        "date": "02-02-24",
+        "usage": 12
+    },
+    {
+        "month": "February",
+        "date": "03-02-24",
+        "usage": 19.2
+    },
+    {
+        "month": "February",
+        "date": "04-02-24",
+        "usage": 15.6
+    },
+    {
+        "month": "February",
+        "date": "05-02-24",
+        "usage": 10
+    },
+    {
+        "month": "February",
+        "date": "06-02-24",
+        "usage": 11
+    },
+    {
+        "month": "February",
+        "date": "07-02-24",
+        "usage": 11
+    },
+    {
+        "month": "February",
+        "date": "08-02-24",
+        "usage": 16
+    },
+    {
+        "month": "February",
+        "date": "09-02-24",
+        "usage": 12
+    },
+    {
+        "month": "February",
+        "date": "10-02-24",
+        "usage": 12
+    },
+    {
+        "month": "February",
+        "date": "11-02-24",
+        "usage": 18
+    },
+    {
+        "month": "February",
+        "date": "12-02-24",
+        "usage": 13
+    },
+    {
+        "month": "February",
+        "date": "13-02-24",
+        "usage": 11
+    },
+    {
+        "month": "February",
+        "date": "14-02-24",
+        "usage": 13
+    },
+    {
+        "month": "February",
+        "date": "15-02-24",
+        "usage": 13
+    },
+    {
+        "month": "February",
+        "date": "16-02-24",
+        "usage": 16
+    },
+    {
+        "month": "February",
+        "date": "17-02-24",
+        "usage": 15.6
+    },
+    {
+        "month": "February",
+        "date": "18-02-24",
+        "usage": 15.6
+    },
+    {
+        "month": "February",
+        "date": "19-02-24",
+        "usage": 8
+    },
+    {
+        "month": "February",
+        "date": "20-02-24",
+        "usage": 9
+    },
+    {
+        "month": "February",
+        "date": "21-02-24",
+        "usage": 16
+    },
+    {
+        "month": "February",
+        "date": "22-02-24",
+        "usage": 12
+    },
+    {
+        "month": "February",
+        "date": "23-02-24",
+        "usage": 12
+    },
+    {
+        "month": "February",
+        "date": "24-02-24",
+        "usage": 15.6
+    },
+    {
+        "month": "February",
+        "date": "25-02-24",
+        "usage": 15.6
+    },
+    {
+        "month": "February",
+        "date": "26-02-24",
+        "usage": 8
+    },
+    {
+        "month": "February",
+        "date": "27-02-24",
+        "usage": 16
+    },
+    {
+        "month": "February",
+        "date": "28-02-24",
+        "usage": 12
+    },
+    {
+        "month": "March",
+        "date": "01-03-24",
+        "usage": 17
+    },
+    {
+        "month": "March",
+        "date": "02-03-24",
+        "usage": 15.6
+    },
+    {
+        "month": "March",
+        "date": "03-03-24",
+        "usage": 15.6
+    },
+    {
+        "month": "March",
+        "date": "04-03-24",
+        "usage": 10
+    },
+    {
+        "month": "March",
+        "date": "05-03-24",
+        "usage": 11
+    },
+    {
+        "month": "March",
+        "date": "06-03-24",
+        "usage": 8
+    },
+    {
+        "month": "March",
+        "date": "07-03-24",
+        "usage": 16
+    },
+    {
+        "month": "March",
+        "date": "08-03-24",
+        "usage": 9
+    },
+    {
+        "month": "March",
+        "date": "09-03-24",
+        "usage": 19.2
+    },
+    {
+        "month": "March",
+        "date": "10-03-24",
+        "usage": 18
+    },
+    {
+        "month": "March",
+        "date": "11-03-24",
+        "usage": 14
+    },
+    {
+        "month": "March",
+        "date": "12-03-24",
+        "usage": 14
+    },
+    {
+        "month": "March",
+        "date": "13-03-24",
+        "usage": 8
+    },
+    {
+        "month": "March",
+        "date": "14-03-24",
+        "usage": 14
+    },
+    {
+        "month": "March",
+        "date": "15-03-24",
+        "usage": 8
+    },
+    {
+        "month": "March",
+        "date": "16-03-24",
+        "usage": 16.8
+    },
+    {
+        "month": "March",
+        "date": "17-03-24",
+        "usage": 16.8
+    },
+    {
+        "month": "March",
+        "date": "18-03-24",
+        "usage": 15
+    },
+    {
+        "month": "March",
+        "date": "19-03-24",
+        "usage": 17
+    },
+    {
+        "month": "March",
+        "date": "20-03-24",
+        "usage": 8
+    },
+    {
+        "month": "March",
+        "date": "21-03-24",
+        "usage": 17
+    },
+    {
+        "month": "March",
+        "date": "22-03-24",
+        "usage": 12
+    },
+    {
+        "month": "March",
+        "date": "23-03-24",
+        "usage": 14.39
+    },
+    {
+        "month": "March",
+        "date": "24-03-24",
+        "usage": 14.39
+    },
+    {
+        "month": "March",
+        "date": "25-03-24",
+        "usage": 14
+    },
+    {
+        "month": "March",
+        "date": "26-03-24",
+        "usage": 13
+    },
+    {
+        "month": "March",
+        "date": "27-03-24",
+        "usage": 9
+    },
+    {
+        "month": "March",
+        "date": "28-03-24",
+        "usage": 10
+    },
+    {
+        "month": "March",
+        "date": "29-03-24",
+        "usage": 17
+    },
+    {
+        "month": "March",
+        "date": "30-03-24",
+        "usage": 13.2
+    },
+    {
+        "month": "March",
+        "date": "31-03-24",
+        "usage": 16.8
+    },
+    {
+        "month": "April",
+        "date": "01-04-24",
+        "usage": 18
+    },
+    {
+        "month": "April",
+        "date": "02-04-24",
+        "usage": 10
+    },
+    {
+        "month": "April",
+        "date": "03-04-24",
+        "usage": 10
+    },
+    {
+        "month": "April",
+        "date": "04-04-24",
+        "usage": 19
+    },
+    {
+        "month": "April",
+        "date": "05-04-24",
+        "usage": 16
+    },
+    {
+        "month": "April",
+        "date": "06-04-24",
+        "usage": 20.4
+    },
+    {
+        "month": "April",
+        "date": "07-04-24",
+        "usage": 12
+    },
+    {
+        "month": "April",
+        "date": "08-04-24",
+        "usage": 15
+    },
+    {
+        "month": "April",
+        "date": "09-04-24",
+        "usage": 17
+    },
+    {
+        "month": "April",
+        "date": "10-04-24",
+        "usage": 13
+    },
+    {
+        "month": "April",
+        "date": "11-04-24",
+        "usage": 16
+    },
+    {
+        "month": "April",
+        "date": "12-04-24",
+        "usage": 14
+    },
+    {
+        "month": "April",
+        "date": "13-04-24",
+        "usage": 19.2
+    },
+    {
+        "month": "April",
+        "date": "14-04-24",
+        "usage": 14.39
+    },
+    {
+        "month": "April",
+        "date": "15-04-24",
+        "usage": 12
+    },
+    {
+        "month": "April",
+        "date": "16-04-24",
+        "usage": 18
+    },
+    {
+        "month": "April",
+        "date": "17-04-24",
+        "usage": 12
+    },
+    {
+        "month": "April",
+        "date": "18-04-24",
+        "usage": 19
+    },
+    {
+        "month": "April",
+        "date": "19-04-24",
+        "usage": 20
+    },
+    {
+        "month": "April",
+        "date": "20-04-24",
+        "usage": 13.2
+    },
+    {
+        "month": "April",
+        "date": "21-04-24",
+        "usage": 12
+    },
+    {
+        "month": "April",
+        "date": "22-04-24",
+        "usage": 9.2
+    },
+    {
+        "month": "April",
+        "date": "23-04-24",
+        "usage": 10
+    }
+]
