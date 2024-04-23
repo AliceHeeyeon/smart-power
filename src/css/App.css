@@ -250,6 +250,20 @@ body {
   body {
     padding-inline: 50px;
   }
+  .header .menu-icon svg {
+    width: 23px;
+    height: 23px;
+  }
+  .header .logo {
+    font-size: 17px;
+  }
+  .header .user-name .user-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header .user-name p {
+    font-size: 17px;
+  }
   .contents-wrapper {
     display: grid;
     width: 100%;
@@ -306,5 +320,6 @@ body {
   .footer {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=App.css.map */
