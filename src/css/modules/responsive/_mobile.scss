@@ -150,15 +150,16 @@ body {
         display: flex;
         justify-content: center;
 
-        .css-1w10rh9-MuiGauge-container {
+        .css-q3vj2t {
             width: 200px;
             height: 200px;
+            margin-top: 15px;
         }
 
-        .css-p1sr87-MuiGauge-referenceArc {
+        .css-9j2lqz {
             fill: rgb(227, 251, 230);
         }
-        .css-b9rdri-MuiGauge-referenceArc {
+        .css-nxtzjj {
             fill: $primary-green; 
         }
 
@@ -203,12 +204,22 @@ body {
 .css-34hspi .MuiChartsAxis-line {
     stroke: white !important;
 }
+.css-34hspi .MuiChartsAxis-label {
+    fill: white !important;
+}
+.css-34hspi .MuiChartsAxis-label {
+    fill: white !important;
+}
 
 //Daily usage
 .daily-usage {
     border: $default-border;
     border-radius: $default-radius;
     padding: $components-padding;
+}
+
+.MuiChartsLegend-series {
+    display: none !important;
 }
 
 //other pages

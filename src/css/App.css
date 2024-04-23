@@ -132,14 +132,15 @@ body {
   display: flex;
   justify-content: center;
 }
-.energy-consumption-gauge .gauge .css-1w10rh9-MuiGauge-container {
+.energy-consumption-gauge .gauge .css-q3vj2t {
   width: 200px;
   height: 200px;
+  margin-top: 15px;
 }
-.energy-consumption-gauge .gauge .css-p1sr87-MuiGauge-referenceArc {
+.energy-consumption-gauge .gauge .css-9j2lqz {
   fill: rgb(227, 251, 230);
 }
-.energy-consumption-gauge .gauge .css-b9rdri-MuiGauge-referenceArc {
+.energy-consumption-gauge .gauge .css-nxtzjj {
   fill: #45CE83;
 }
 .energy-consumption-gauge .gauge text {
@@ -180,10 +181,22 @@ body {
   stroke: white !important;
 }
 
+.css-34hspi .MuiChartsAxis-label {
+  fill: white !important;
+}
+
+.css-34hspi .MuiChartsAxis-label {
+  fill: white !important;
+}
+
 .daily-usage {
   border: 1px solid #45CE83;
   border-radius: 10px;
   padding: 15px 20px;
+}
+
+.MuiChartsLegend-series {
+  display: none !important;
 }
 
 .page {
