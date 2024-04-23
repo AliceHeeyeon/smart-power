@@ -8,7 +8,11 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: $background;
     color: white;
-    padding-inline:50px; 
+    padding-inline:30px; 
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
 
 //home
@@ -22,15 +26,21 @@ body {
 //Header
 .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
+
+    .menu-icon svg {
+        width: 20px;
+        height: 20px;
+    }
 
     .logo {
         font-family: "Orbitron", sans-serif;
         text-align: center;
         font-weight: 500;
+        font-size: 14px;
     }
 
     .user-name {
@@ -43,12 +53,13 @@ body {
             align-items: center;
             justify-content: center;
             border-radius: 30px;
-            width: 20px;
-            height: 20px;
-            margin-right: 8px;
+            width: 18px;
+            height: 18px;
+            margin-right: 3px;
         }
         p {
             font-family: "Rubik", sans-serif;
+            font-size: 14px;
         }
     }
 
@@ -110,18 +121,28 @@ body {
     }
 
     .change-plan-btn {
-        height: 43px;
+        height: 36px;
         position: absolute;
         right: 20px;
         bottom: 20px;
+        font-size: 12px;
     }
 
+    .charge-info {
+        font-size: 15px;
+    }
+
+    // change-plan button
     .MuiButtonBase-root {
         background-color: $primary-green;
+        &:hover {
+            background-color: $sub-green;
+        }
     }
 
-    .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
-        background-color: $sub-green;
+    // plan option list li
+    .css-1km1ehz {
+        font-size: 14px;
     }
 
     .MuiPaper-root {
@@ -185,7 +206,7 @@ body {
         .title,
         .duration {
             color: #b6b6b6;
-            font-size: 14px;
+            font-size: 9px;
         }
 
         .value-display {
@@ -235,9 +256,22 @@ body {
         color: #2b8eff;
     }
 
-    .css-i4bv87-MuiSvgIcon-root {
+    .css-i4bv87-MuiSvgIcon-root,
+    .css-vubbuv {
         position: absolute;
         top: 30px;
         left: 35px;
+    }
+}
+
+//footer
+.footer {
+    display: grid;
+    justify-content: center;
+    margin: 20px 0px 15px;
+    font-size: 10px;
+    .privacy,
+    .copyright {
+        text-align: center;
     }
 }

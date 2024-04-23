@@ -13,7 +13,11 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #111A1A;
   color: white;
-  padding-inline: 50px;
+  padding-inline: 30px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
 
 .home .contents-wrapper {
@@ -23,15 +27,20 @@ body {
 
 .header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
   margin-top: 20px;
   margin-bottom: 20px;
   align-items: center;
+}
+.header .menu-icon svg {
+  width: 20px;
+  height: 20px;
 }
 .header .logo {
   font-family: "Orbitron", sans-serif;
   text-align: center;
   font-weight: 500;
+  font-size: 14px;
 }
 .header .user-name {
   display: flex;
@@ -44,12 +53,13 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
 }
 .header .user-name p {
   font-family: "Rubik", sans-serif;
+  font-size: 14px;
 }
 .header .nav-menu {
   position: absolute;
@@ -98,16 +108,23 @@ body {
   color: #a8facd;
 }
 .user-plan .change-plan-btn {
-  height: 43px;
+  height: 36px;
   position: absolute;
   right: 20px;
   bottom: 20px;
+  font-size: 12px;
+}
+.user-plan .charge-info {
+  font-size: 15px;
 }
 .user-plan .MuiButtonBase-root {
   background-color: #45CE83;
 }
-.user-plan .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+.user-plan .MuiButtonBase-root:hover {
   background-color: rgba(44, 192, 111, 0.4588235294);
+}
+.user-plan .css-1km1ehz {
+  font-size: 14px;
 }
 .user-plan .MuiPaper-root {
   position: absolute;
@@ -164,7 +181,7 @@ body {
 .display-box .price .title,
 .display-box .price .duration {
   color: #b6b6b6;
-  font-size: 14px;
+  font-size: 9px;
 }
 .display-box .total-kwh .value-display,
 .display-box .price .value-display {
@@ -210,13 +227,28 @@ body {
   display: contents;
   color: #2b8eff;
 }
-.page .css-i4bv87-MuiSvgIcon-root {
+.page .css-i4bv87-MuiSvgIcon-root,
+.page .css-vubbuv {
   position: absolute;
   top: 30px;
   left: 35px;
 }
 
+.footer {
+  display: grid;
+  justify-content: center;
+  margin: 20px 0px 15px;
+  font-size: 10px;
+}
+.footer .privacy,
+.footer .copyright {
+  text-align: center;
+}
+
 @media screen and (min-width: 992px) {
+  body {
+    padding-inline: 50px;
+  }
   .contents-wrapper {
     display: grid;
     width: 100%;
@@ -269,5 +301,9 @@ body {
     position: absolute;
     left: 20px;
     bottom: 20px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=App.css.map */

@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 import DateRange from "../components/DateRange"
 import MonthlyUsage from "../components/MonthlyUsage"
 import DailyUsage from "../components/DailyUsage"
@@ -40,6 +41,7 @@ const Home = () => {
           <MonthlyUsage />
           <DailyUsage />
         </div>
+        <Footer />
     </div>
   )
 }

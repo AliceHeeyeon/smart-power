@@ -1,4 +1,9 @@
 @media screen and (min-width: 992px) {
+
+    body {
+        padding-inline: 50px;
+    }
+
     //home grid
     .contents-wrapper {
         display: grid;
@@ -72,5 +77,10 @@
         }
     }
 
+    //footer
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
