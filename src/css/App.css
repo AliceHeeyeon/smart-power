@@ -176,6 +176,10 @@ body {
   padding: 15px 20px;
 }
 
+.css-34hspi .MuiChartsAxis-line {
+  stroke: white !important;
+}
+
 .daily-usage {
   border: 1px solid #45CE83;
   border-radius: 10px;

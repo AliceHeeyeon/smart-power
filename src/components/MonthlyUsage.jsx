@@ -42,7 +42,7 @@ const chartSetting = {
     ["& .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-label"]: {
       fill: "#ffffff"
     },
-    ["& .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line"]: {
+    ["& .css-34hspi .MuiChartsAxis-line"]: {
       stroke: "#ffffff"
     },
     ["& .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel"]: {

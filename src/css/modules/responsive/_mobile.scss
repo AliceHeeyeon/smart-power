@@ -200,6 +200,10 @@ body {
     padding: $components-padding;
 }
 
+.css-34hspi .MuiChartsAxis-line {
+    stroke: white !important;
+}
+
 //Daily usage
 .daily-usage {
     border: $default-border;
