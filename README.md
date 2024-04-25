@@ -1,8 +1,13 @@
-# React + Vite
+# Smart Power
+>
+> Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I created energy usage application for energy provider. It visualize data usage for daily, monthly and assigned time range.
+Feel free to check it out [here](https://smart-power.vercel.app/)
 
-Currently, two official plugins are available:
+> Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React, JavaScript, Material UI, Tailwind
+
+> Project Mockups
+
