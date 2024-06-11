@@ -91,7 +91,7 @@ const DateRange = () => {
                     height={100} 
                     value={state.usage} 
                     valueMin={1} 
-                    valueMax={500}
+                    valueMax={580}
                     text={({ value }) => `${value}`}
                 />
             </Stack>
